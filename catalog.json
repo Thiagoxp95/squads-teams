@@ -1,0 +1,91 @@
+{
+  "format": "squads.catalog",
+  "version": 1,
+  "repositoryUrl": "https://github.com/Thiagoxp95/squads-teams",
+  "teams": [
+    {
+      "slug": "product-squad",
+      "name": "Product squad",
+      "summary": "A full product team. You are the Product Manager.",
+      "category": "Work",
+      "outcome": "Goals turned into a ready, prioritized backlog.",
+      "setupMinutes": 5,
+      "featured": true,
+      "manifest": "teams/product-squad/product-squad.squadsteam.json",
+      "readme": "teams/product-squad/README.md",
+      "members": 6,
+      "skills": [
+        "teams/product-squad/skills/user-stories-and-acceptance-criteria/SKILL.md",
+        "teams/product-squad/skills/backlog-refinement-and-sprint-planning/SKILL.md",
+        "teams/product-squad/skills/story-test-design/SKILL.md",
+        "teams/product-squad/skills/technical-design-and-adrs/SKILL.md",
+        "teams/product-squad/skills/code-review/SKILL.md",
+        "teams/product-squad/skills/systematic-debugging/SKILL.md",
+        "teams/product-squad/skills/test-driven-development/SKILL.md",
+        "teams/product-squad/skills/ui-design-and-design-systems/SKILL.md",
+        "teams/product-squad/skills/unit-and-integration-test-design/SKILL.md",
+        "teams/product-squad/skills/ux-research-and-usability-testing/SKILL.md",
+        "teams/product-squad/skills/web-accessibility-audit/SKILL.md",
+        "teams/product-squad/skills/bug-report/SKILL.md"
+      ],
+      "requires": {
+        "apps": []
+      }
+    },
+    {
+      "slug": "qa-team",
+      "name": "QA team",
+      "summary": "Independent testing: strategy, automation, exploration, accessibility and performance.",
+      "category": "Work",
+      "outcome": "A risk-based test plan and a clear ship / don't-ship verdict for each release.",
+      "setupMinutes": 5,
+      "featured": true,
+      "manifest": "teams/qa-team/qa-team.squadsteam.json",
+      "readme": "teams/qa-team/README.md",
+      "members": 4,
+      "skills": [
+        "teams/qa-team/skills/test-strategy-and-regression-plan/SKILL.md",
+        "teams/qa-team/skills/release-signoff/SKILL.md",
+        "teams/qa-team/skills/bug-report/SKILL.md",
+        "teams/qa-team/skills/playwright-e2e-tests/SKILL.md",
+        "teams/qa-team/skills/unit-and-integration-test-design/SKILL.md",
+        "teams/qa-team/skills/test-driven-development/SKILL.md",
+        "teams/qa-team/skills/systematic-debugging/SKILL.md",
+        "teams/qa-team/skills/exploratory-test-charters/SKILL.md",
+        "teams/qa-team/skills/story-test-design/SKILL.md",
+        "teams/qa-team/skills/web-accessibility-audit/SKILL.md",
+        "teams/qa-team/skills/web-performance-core-web-vitals/SKILL.md"
+      ],
+      "requires": {
+        "apps": []
+      }
+    },
+    {
+      "slug": "head-hunters",
+      "name": "Head hunters",
+      "summary": "Find jobs in Canada, build your network there, and land the offer.",
+      "category": "Work",
+      "outcome": "A weekly pipeline of fitting roles in Canada.",
+      "setupMinutes": 5,
+      "featured": true,
+      "manifest": "teams/head-hunters/head-hunters.squadsteam.json",
+      "readme": "teams/head-hunters/README.md",
+      "members": 5,
+      "skills": [
+        "teams/head-hunters/skills/canada-job-search-strategy/SKILL.md",
+        "teams/head-hunters/skills/linkedin-profile-canada/SKILL.md",
+        "teams/head-hunters/skills/job-pipeline-tracker/SKILL.md",
+        "teams/head-hunters/skills/canada-job-scout/SKILL.md",
+        "teams/head-hunters/skills/linkedin-outreach-canada/SKILL.md",
+        "teams/head-hunters/skills/informational-interviews/SKILL.md",
+        "teams/head-hunters/skills/canadian-resume/SKILL.md",
+        "teams/head-hunters/skills/cover-letter-and-application/SKILL.md",
+        "teams/head-hunters/skills/star-story-bank/SKILL.md",
+        "teams/head-hunters/skills/canadian-interview-prep/SKILL.md"
+      ],
+      "requires": {
+        "apps": []
+      }
+    }
+  ]
+}
