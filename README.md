@@ -16,3 +16,7 @@ Ready-made teams for Squads. They appear in the app under **Templates → Explor
 ## Licenses
 
 The starter skills are condensed and modified from MIT and Apache-2.0 sources; each `SKILL.md` names its source on its last line, and the license texts are in [LICENSES/](LICENSES/).
+
+## OpenMausBot
+
+The same teams in OpenMausBot's format (0.1.98 or later) are in [openmausbot/](openmausbot/). In OpenMausBot, open **Templates → Import → Load from GitHub** and paste a file's link.
